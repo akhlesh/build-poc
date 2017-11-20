@@ -1,0 +1,21 @@
+{
+  "name": "pure-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "common": "tsc -p \"./src/ts-common/\" && webpack",
+    "ngc": "ngc",
+    "angular": "ngc -p \"./src/angular/\"  && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "^5.0.2",
+    "@angular/compiler": "^5.0.2",
+    "@angular/core": "^5.0.2",
+    "rxjs": "^5.5.2",
+    "ts-loader": "^3.1.1"
+  }
+}

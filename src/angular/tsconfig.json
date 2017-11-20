@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "../../dist/angular",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "es2015",
+        "target": "es5",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "paths": {
+            "common": ["../../dist/common/index"],
+            "@angular/*": ["../../node_modules/@angular/*"]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "angularCompilerOptions": {
+        "skipTemplateCodegen": true
+    }
+}

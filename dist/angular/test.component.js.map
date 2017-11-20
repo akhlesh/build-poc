@@ -1,0 +1,1 @@
+{"version":3,"file":"test.component.js","sourceRoot":"","sources":["../../src/angular/src/test.component.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,SAAS,EAAC,MAAM,eAAe,CAAC;AACxC,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,QAAQ,CAAC;;;;IASzC,gCAAQ,GAAR;QACE,IAAI,CAAC,GAAG,GAAI,QAAQ,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC;KAChE;wBAZH"}
